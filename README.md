@@ -14,7 +14,7 @@ Referenten: **Linus Kohl** (Organisation & Governance) · **Daniel Valtiner** (t
 |-------|-------|
 | `storyline.md` | Dramaturgie des Workshops — 7 Beats, roter Faden, 50-Minuten-Zeitplan, Rollenverteilung Linus/Daniel |
 | `content.md` | Foliengenaue Inhalte (jede Folie = ein Block, inkl. Speaker-Notes) |
-| `LK-2026-045_Multiagenten-Architektur_Workshop.pdf` | Fertiger Foliensatz (23 Folien, 16:9, Linus-Kohl-CI) |
+| `LK-2026-045_Multiagenten-Architektur_Workshop.pdf` | Fertiger Foliensatz (22 Folien, 16:9, Linus-Kohl-CI) |
 
 **Kernaussage:** Die IT verliert die Ausführungshoheit über Softwareentwicklung und gewinnt die Gestaltungshoheit — vom **Builder & Gatekeeper** zum **Architect & Governor**.
 
@@ -25,12 +25,14 @@ Referenten: **Linus Kohl** (Organisation & Governance) · **Daniel Valtiner** (t
 | Zeit | Inhalt |
 |------|--------|
 | 0–5 min | Provokanter Einstieg: „Was passiert, wenn jeder Software bauen kann?" |
-| 5–15 min | Teil 1: Machtverschiebung der IT (Früher → Heute → Applikations-Gleichung) |
-| 15–25 min | Gruppenübung 1: „Wem gehört die Software?" (Fälle A/B/C) |
-| 25–32 min | Diskussion & Ableitung: die neue Rolle der IT |
-| 32–40 min | Teil 2: Multiagenten-Architektur + technischer Deep Dive (Daniel) |
-| 40–47 min | Gruppenübung 2: „Agentic Enterprise Architecture" (8 Dimensionen) |
-| 47–50 min | Diskussion + Schlussfolgerung: Früher / Heute / Morgen |
+| 5–13 min | Teil 1: Machtverschiebung der IT (Früher → Heute → Applikations-Gleichung → Architect & Governor → 5 Governance-Fragen) |
+| 13–23 min | Gruppenübung 1: „Wem gehört die Software?" — **ein** zugespitzter Fall, vier Entscheidungen |
+| 23–27 min | Diskussion & Ableitung: die neue Rolle der IT |
+| 27–35 min | Teil 2: Multiagenten-Architektur + technischer Deep Dive (Daniel) |
+| 35–45 min | Gruppenübung 2: „Agentic Enterprise Architecture" — **vier** Entscheidungsdimensionen |
+| 45–50 min | Diskussion + Schlussfolgerung: Früher / Heute / Morgen |
+
+**Didaktisches Prinzip:** **Weniger Übungen, mehr Zeit je Übung.** Beide Gruppenarbeiten erhalten je 10 Minuten (zusammen 20 der 50 Minuten). Übung 1 arbeitet einen einzigen, zugespitzten Fall in vier Kernfragen durch; Übung 2 bündelt acht Einzelthemen auf vier Entscheidungsdimensionen (~2,5 min pro Entscheidung). Tiefe statt Breite — damit die Gruppen zu belastbaren Aussagen kommen.
 
 ---
 
@@ -49,4 +51,5 @@ Dieses Repository ist **öffentlich** und als Arbeitsfläche für die Weiterentw
 
 | Version | Datum | Änderung |
 |---------|-------|----------|
+| LK-2026-045 · v3 | 2026-10-07 | Übungen entschlackt: Übung 1 = ein Fall mit vier Kernfragen (10 min), Übung 2 = vier gebündelte Dimensionen (10 min). Deck auf 22 Folien, Zeitplan harmonisiert. |
 | LK-2026-045 | 2026-09-30 | Initialer Stand: Storyline, Inhalte, Foliensatz (23 Folien) |

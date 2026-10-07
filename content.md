@@ -3,6 +3,8 @@
 Workshop (50 min) · Kongress-Motto „Co-Intelligence" · Zielgruppe C-Level / IT-Entscheider
 Struktur für den späteren Design-Build. Jede Folie = ein Block.
 
+> **Stand v3 (Übungen entschlackt):** Aus drei Fällen in Übung 1 wurde **ein zugespitzter Fall** mit vier Kernfragen (10 min). Übung 2 arbeitet statt acht nur noch **vier Entscheidungsdimensionen** ab (10 min). Insgesamt 22 Folien.
+
 ---
 
 ## SLIDE 1
@@ -12,7 +14,6 @@ KICKER: Kongress „Co-Intelligence" · Workshop
 TITEL: Multiagenten-Architektur & die Machtverschiebung der IT
 LEAD: Was passiert, wenn Softwareentwicklung demokratisiert wird und jeder zum Applikationsentwickler werden kann?
 
-- Untertitel: Vom Builder & Gatekeeper zum Architect & Governor
 - Referenten: Linus (Organisation & Governance) · Daniel (technischer Deep Dive)
 - Dauer: 50 Minuten
 
@@ -25,19 +26,19 @@ SPEAKER: Herzlich willkommen. Heute geht es nicht um ein neues Tool, sondern um 
 TYP: Agenda
 KICKER: Agenda
 TITEL: Früher → Heute → Morgen
-LEAD: Der rote Faden des Workshops folgt einer einfachen Dramaturgie.
+LEAD: Der rote Faden des Workshops folgt einer einfachen Dramaturgie — zwei Gruppenübungen, jede mit echter Zeit.
 
 | # | Abschnitt                                         | Zeit   |
 |---|---------------------------------------------------|--------|
 | 1 | Was passiert, wenn jeder bauen kann?              | 5 min  |
-| 2 | Teil 1 — Machtverschiebung der IT                 | 10 min |
+| 2 | Teil 1 — Machtverschiebung der IT                 | 8 min  |
 | 3 | Gruppenübung 1: „Wem gehört die Software?"        | 10 min |
-| 4 | Ableitung: die neue Rolle der IT                  | 7 min  |
+| 4 | Ableitung: die neue Rolle der IT                  | 4 min  |
 | 5 | Teil 2 — Multiagenten-Architektur (Deep Dive)     | 8 min  |
-| 6 | Gruppenübung 2: „Agentic Enterprise Architecture" | 7 min  |
-| 7 | Abschluss: die Rolle der IT von morgen            | 3 min  |
+| 6 | Gruppenübung 2: „Agentic Enterprise Architecture" | 10 min |
+| 7 | Abschluss: die Rolle der IT von morgen            | 5 min  |
 
-SPEAKER: Wir bewegen uns von der Vergangenheit über die Gegenwart in die Zukunft — und arbeiten zweimal selbst: einmal an der Organisation, einmal an der Architektur.
+SPEAKER: Wir bewegen uns von der Vergangenheit über die Gegenwart in die Zukunft — und arbeiten zweimal selbst: einmal an der Organisation, einmal an der Architektur. Beide Übungen bekommen bewusst Raum: ein Fall, vier Dimensionen, zehn Minuten.
 
 ---
 
@@ -59,7 +60,7 @@ SPEAKER: Halten Sie dieses Bild fest. Wir kommen am Ende darauf zurück. Die eig
 TYP: Section
 KICKER: Teil 1 · Machtverschiebung
 TITEL: Vom Gatekeeper zum Gestalter
-LEAD: Wie sich die Ausführungshoheit der IT verschiebt — und warum das eine organisatorische, keine technologische Frage ist.
+LEAD: Wie sich die Ausführungshoheit der IT verschiebt — und warum das eine Frage der Organisation ist, mehr als der Technik.
 
 SPEAKER: Teil 1 handelt von Macht, nicht von Technik. Ich beginne mit dem, was Jahrzehnte lang gegolten hat.
 
@@ -91,7 +92,7 @@ SPEAKER: Dieser Korridor setzt eine Annahme voraus: Nur die IT *kann* Software b
 TYP: Cards
 KICKER: Heute · Die nächste Stufe
 TITEL: Vibe Coding — Softwareentwicklung wird demokratisiert
-LEAD: Entwickler programmieren heute mit KI deutlich schneller. Der nächste Schritt geht darüber hinaus: Jeder kann eine Applikation bauen.
+LEAD: Der Sprung geht über „schneller programmieren" hinaus: Jeder kann eine Applikation bauen.
 
 - Ein Fachbereich beschreibt: „Ich brauche eine Anwendung, die Produktionsstörungen analysiert, Daten aus SAP und MES holt und mir jeden Morgen die fünf größten Ursachen zeigt."
 - Ein Agent erzeugt daraus: **Frontend · Backend · Datenbank · API · Schnittstellen · Business-Logik · Tests** — und teils das Deployment.
@@ -128,9 +129,9 @@ LEAD: Die IT verliert die Ausführungshoheit — und gewinnt die Gestaltungshohe
 | Technologie kontrollieren  | Governance betreiben                    |
 | Exklusiver Produzent       | Architect, Betreiber, Governance-System |
 
-- Die eigentliche Machtverschiebung ist **organisatorisch, nicht technologisch**.
+- Die eigentliche Machtverschiebung: **die IT bekommt nicht weniger, sondern eine andere, anspruchsvollere Aufgabe.**
 
-SPEAKER: Die IT bekommt nicht weniger, sondern eine andere, anspruchsvollere Aufgabe. Sie wird zur Instanz, die die Regeln setzt.
+SPEAKER: Die IT wird zur Instanz, die die Regeln setzt. Die Verschiebung selbst ist dabei nicht technologisch — sie ist organisatorisch.
 
 ---
 
@@ -138,20 +139,16 @@ SPEAKER: Die IT bekommt nicht weniger, sondern eine andere, anspruchsvollere Auf
 
 TYP: Checklist
 KICKER: Governance-Fragen
-TITEL: Die Fragen, die jetzt der IT gehören
-LEAD: Das ist keine Technologiefrage — es ist eine Governance-Frage.
+TITEL: Die fünf Fragen, die jetzt der IT gehören
+LEAD: Das ist keine Technologiefrage — es ist eine Governance-Frage. Diese fünf bilden den Kern.
 
-- Welche Daten darf eine Anwendung verwenden?
-- Welche APIs dürfen angesprochen werden?
-- Wer besitzt die Anwendung? Wer betreibt sie?
-- Wie wird Security sichergestellt?
-- Wie wird dokumentiert, gewartet?
-- Was passiert, wenn der Ersteller das Unternehmen verlässt?
-- Welche Anwendungen dürfen produktiv gehen?
-- Wie werden Agenten identifiziert und berechtigt?
-- Wie sieht der Software-Lifecycle für agentisch erzeugte Software aus?
+- Welche **Daten** darf eine Anwendung verwenden?
+- Wer **besitzt** die Anwendung — und wer **betreibt** sie?
+- Wie wird **Security** sichergestellt?
+- Was passiert, wenn der **Ersteller** das Unternehmen verlässt?
+- Wie sieht der **Software-Lifecycle** für agentisch erzeugte Software aus?
 
-SPEAKER: Diese Liste können wir nicht im stillen Kämmerlein beantworten. Lassen Sie uns das an drei konkreten Fällen durchspielen.
+SPEAKER: Diese fünf Fragen können wir nicht im stillen Kämmerlein beantworten. Lassen Sie uns das jetzt an einem konkreten Fall durchspielen.
 
 ---
 
@@ -160,77 +157,51 @@ SPEAKER: Diese Liste können wir nicht im stillen Kämmerlein beantworten. Lasse
 TYP: Section
 KICKER: Gruppenübung 1
 TITEL: Wem gehört die Software?
-LEAD: Drei reale Szenarien, eine zentrale Frage: Wer verantwortet was — und wer ist die IT dann noch?
+LEAD: Ein Fall, vier Fragen, zehn Minuten — und eine Diskussion, die es in sich hat.
 
-SPEAKER: Sie entscheiden jetzt selbst. Bilden Sie Gruppen, pro Fall ein paar Minuten, dann tauschen wir uns aus.
+SPEAKER: Statt drei Fälle oberflächlich abzuhaken, nehmen wir uns diesmal einen einzigen vor — und den richtig. Bilden Sie Gruppen.
 
 ---
 
 ## SLIDE 11
 
 TYP: Cards
-KICKER: Fall A · Vibe Coder im kleinen Unternehmen
-TITEL: Der Controlling-Kollege hat gebaut
-LEAD: Ein Mitarbeiter im Controlling baut mit einem AI-Agenten eine kleine Anwendung.
+KICKER: Gruppenübung 1 · Der Fall
+TITEL: Die Side-App, die geschäftskritisch wurde
+LEAD: Ein Mitarbeiter im Controlling baut mit einem AI-Agenten eine kleine Anwendung. Sechs Monate später sieht die Realität so aus:
 
-- Sie greift auf Unternehmensdaten zu, hat einen Login, verarbeitet Kundendaten
-- Sie wird von **15 Mitarbeitern** genutzt — der Mitarbeiter hat sie selbst gebaut
+- **Die Anwendung:** Greift auf Unternehmensdaten zu · hat einen Login · verarbeitet Kundendaten
+- **Der Ist-Zustand:** 15 Nutzer · 5 Schnittstellen · 3 Datenbanken · 2 externe AI-APIs · keine Tests · kein Backup · kein dokumentierter Owner
+- **Der Auslöser:** Die Anwendung ist inzwischen **geschäftskritisch** — und der Ersteller reicht seine Kündigung ein.
 
-**Fragen:**
-
-1. Darf er sie produktiv einsetzen? · 2. Wer genehmigt sie? · 3. Wer ist Owner?
-2. Wer macht Security? · 5. Wer betreibt sie? · 6. Wer wartet sie?
-3. Was passiert, wenn er kündigt?
-
-SPEAKER: Entscheiden Sie in der Gruppe: konkret, wer, mit welcher Verantwortung. Notieren Sie Ihre Antworten.
+SPEAKER: Das ist kein Gedankenspiel: Es ist die logische Endstufe dessen, was passiert, wenn Governance fehlt. Und jetzt müssen Sie entscheiden.
 
 ---
 
 ## SLIDE 12
 
-TYP: Cards
-KICKER: Fall B · Digitalisierungsteam im Großunternehmen
-TITEL: Ein Team, mehrere Agents, mehrere Werke
-LEAD: Ein zentrales Digitalisierungsteam entwickelt mit mehreren Agents eine Produktionsanwendung.
+TYP: Checklist
+KICKER: Gruppenübung 1 · Die Fragen
+TITEL: Vier Entscheidungen, die niemand für Sie trifft
+LEAD: Zehn Minuten, konkret: wer, mit welcher Verantwortung, mit welcher Konsequenz.
 
-- Greift auf **MES-Daten** zu, verwendet **SAP-Daten**, schreibt Ergebnisse zurück
-- Nutzt mehrere externe APIs, läuft produktiv in **mehreren Werken**
+1. **Weiterbetrieb** — Darf die Anwendung produktiv weiterlaufen? Wer entscheidet das?
+2. **Ownership** — Wer ist Owner, und wer verantwortet Security, Betrieb und Wartung?
+3. **Der Absprung** — Der Ersteller kündigt: Wie sichern Sie Wissen, Lifecycle und Betrieb?
+4. **Die Regel** — Welche Regel hätten Sie vor sechs Monaten gebraucht — und führen Sie sie jetzt ein?
 
-**Fragen:**
-
-- Ist das IT oder Digitalisierung? · Wer trägt die technische, wer die fachliche Verantwortung?
-- Muss die klassische IT jeden Release freigeben? · Welche Security-Gates braucht es?
-- Wie sieht der Lifecycle aus?
-
-SPEAKER: Hier verschwimmen die Grenzen zwischen IT und Fachbereich. Entscheiden Sie, wo die Verantwortung wirklich liegt.
+SPEAKER: Beantworten Sie in der Gruppe alle vier — aber in die Tiefe, nicht in die Breite. Ein Owner, ein Betriebsmodell, eine Regel. Danach tragen wir zusammen.
 
 ---
 
 ## SLIDE 13
-
-TYP: Cards
-KICKER: Fall C · Shadow-AI-Anwendung
-TITEL: Sechs Monate später: geschäftskritisch, herrenlos
-LEAD: Ein Mitarbeiter entwickelt mit KI eine kleine Anwendung. Ein halbes Jahr später existieren:
-
-- **14 Benutzer · 5 Schnittstellen · 3 Datenbanken · 2 externe AI-APIs**
-- **Kein** dokumentierter Owner · **keine** Tests · **keine** Backup-Strategie
-- Die Anwendung ist inzwischen **geschäftskritisch**
-
-**Frage:** Was macht die IT jetzt?
-
-SPEAKER: Diesen Fall können Sie nicht mehr schönreden. Er zeigt, was passiert, wenn Governance fehlt — und genau deshalb braucht es eine neue Rolle der IT.
-
----
-
-## SLIDE 14
 
 TYP: ActionTitle
 KICKER: Ableitung · Teil 1
 TITEL: Die neue Rolle der IT
 LEAD: Aus Ihren Antworten lässt sich eine Rolle ableiten — weniger Produzent, mehr Gestalter.
 
-- Die IT wird vom **exklusiven Produzenten** zum **Architekten, Betreiber und Governance-System** der digitalen Organisation.
+- Die IT wird vom **Produzenten** von Technologie zum **Architekten, Betreiber und Governance-System** der digitalen Organisation.
 - Sie setzt Rahmen, statt jede Anwendung selbst zu bauen.
 - Die Machtverschiebung ist eine **Chance**, wenn Governance aktiv gestaltet wird.
 
@@ -238,7 +209,7 @@ SPEAKER: Das war die organisatorische Hälfte. Jetzt wechseln wir zur Technologi
 
 ---
 
-## SLIDE 15
+## SLIDE 14
 
 TYP: Section
 KICKER: Teil 2 · Multiagenten-Architektur
@@ -249,7 +220,7 @@ SPEAKER: Sie haben die Governance durchdacht. Jetzt bauen wir die Architektur da
 
 ---
 
-## SLIDE 16
+## SLIDE 15
 
 TYP: Timeline
 KICKER: Deep Dive · Begriffsklärung
@@ -269,7 +240,7 @@ SPEAKER: Der Sprung von „Agent" zu „Multi-Agent" ist der eigentliche Quanten
 
 ---
 
-## SLIDE 17
+## SLIDE 16
 
 TYP: Cards
 KICKER: Deep Dive · Konkretes Setup
@@ -290,17 +261,17 @@ SPEAKER: Jeder dieser Bausteine ist eine Stelle, an der Ihre Governance-Fragen a
 
 ---
 
-## SLIDE 18
+## SLIDE 17
 
 TYP: Split
 KICKER: Architekturfrage
 TITEL: Wo sollen unsere Agenten laufen?
-LEAD: Die zentrale Architekturentscheidung: On-Prem, Cloud oder Hybrid.
+LEAD: Die zentrale Architekturentscheidung: On-Premises, Cloud oder Hybrid.
 
-| On-Premises                                                                     | Cloud                                                             | Hybrid                                                             |
-|---------------------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------|
-| Datenhoheit, Kontrolle, bestehende Infrastruktur, teils regulatorische Vorteile | Geschwindigkeit, verfügbare Modelle, Skalierung, Managed Services | Beides — selektiv                                                  |
-| Infrastruktur, Modelle, Betrieb, Skalierung, Update-Zyklen                      | Abhängigkeiten, Datenflüsse, Kosten, Vendor Lock-in, Governance   | Welche Teile kontrollieren wir, welche beziehen wir aus der Cloud? |
+|                    | On-Premises                                                      | Cloud                                                            | Hybrid                                          |
+|--------------------|------------------------------------------------------------------|------------------------------------------------------------------|-------------------------------------------------|
+| **Vorteile**       | Datenhoheit · Kontrolle · bestehende Infrastruktur · teils regulatorische Vorteile | Geschwindigkeit · verfügbare Modelle · Skalierung · Managed Services | Beides — selektiv, je nach Anforderung          |
+| **Lasten/Risiken** | Infrastruktur · Modelle · Betrieb · Skalierung · Update-Zyklen   | Abhängigkeiten · Datenflüsse · Kosten · Vendor Lock-in · Governance | Welche Teile kontrollieren wir, welche beziehen wir aus der Cloud? |
 
 - Die eigentliche Frage: **Welche Teile einer Multiagenten-Architektur müssen unter unserer Kontrolle bleiben — und welche können aus der Cloud kommen?**
 
@@ -308,57 +279,51 @@ SPEAKER: Das ist keine rein technische, sondern eine strategische Entscheidung. 
 
 ---
 
-## SLIDE 19
+## SLIDE 18
 
 TYP: Section
 KICKER: Gruppenübung 2
 TITEL: Baut eure Agentic Enterprise Architecture
-LEAD: Ein Unternehmen, acht Entscheidungen, 15 Minuten — ein Architekturbild.
+LEAD: Ein Unternehmen, vier Entscheidungsdimensionen, zehn Minuten — ein Architekturbild.
 
-SPEAKER: Jede Gruppe bekommt dasselbe Unternehmen. Entwerfen Sie gemeinsam eine Multiagenten-Architektur.
+SPEAKER: Jede Gruppe bekommt dasselbe Unternehmen. Entwerfen Sie gemeinsam eine Multiagenten-Architektur — diesmal in der Tiefe, nicht in der Breite.
+
+---
+
+## SLIDE 19
+
+TYP: Table
+KICKER: Gruppenübung 2 · Das Unternehmen
+TITEL: 10.000 Mitarbeiter, vier Entscheidungsdimensionen
+LEAD: Das Unternehmen: 10.000 Mitarbeiter · SAP · Microsoft 365 · mehrere Produktionsstandorte · MES · CRM · Data Platform
+
+| # | Entscheidungsdimension    | Leitfrage                                                    |
+|---|---------------------------|--------------------------------------------------------------|
+| 1 | **Agenten & Rollen**      | Welche Agenten brauchen wir — und wer darf sie bauen?        |
+| 2 | **Daten & Identity**      | Auf welche Daten dürfen sie zugreifen, und wie werden sie identifiziert & berechtigt? |
+| 3 | **Infrastruktur**         | On-Prem, Cloud oder Hybrid — für welche Teile?              |
+| 4 | **Governance & Security** | Was wird kontrolliert — und wo braucht es Human-in-the-loop? |
+
+SPEAKER: Vier Dimensionen in zehn Minuten — das sind rund zweieinhalb Minuten pro Entscheidung. Tiefe statt Breite: mindestens eine klare Entscheidung pro Dimension, ein kohärentes Bild am Ende.
 
 ---
 
 ## SLIDE 20
 
-TYP: Matrix
-KICKER: Gruppenübung 2 · Das Unternehmen
-TITEL: 10.000 Mitarbeiter, acht Entscheidungsdimensionen
-LEAD: Entwerft in 15 Minuten eine Multiagenten-Architektur für dieses Unternehmen.
-
-**Das Unternehmen:** 10.000 Mitarbeiter · SAP · Microsoft 365 · mehrere Produktionsstandorte · MES · CRM · Data Platform
-
-| # | Entscheidungsdimension | Leitfrage                                             |
-|---|------------------------|-------------------------------------------------------|
-| 1 | Agenten                | Welche Agenten brauchen wir?                          |
-| 2 | Daten                  | Auf welche Daten dürfen sie zugreifen?                |
-| 3 | Tools                  | Welche Systeme dürfen sie bedienen?                   |
-| 4 | Identity               | Wie erhalten Agenten Identität & Berechtigungen?      |
-| 5 | Infrastruktur          | On-Prem / Cloud / Hybrid?                             |
-| 6 | Governance             | Wer darf neue Agenten bauen?                          |
-| 7 | Security               | Was muss kontrolliert werden?                         |
-| 8 | Human-in-the-loop      | Bei welchen Entscheidungen muss ein Mensch freigeben? |
-
-SPEAKER: Arbeiten Sie alle acht Dimensionen durch — mindestens eine Entscheidung pro Dimension. Halten Sie Ihr Architekturbild stichpunktartig fest.
-
----
-
-## SLIDE 21
-
 TYP: Timeline
 KICKER: Abschluss · Früher → Heute → Morgen
 TITEL: Die eigentliche Machtverschiebung
-LEAD: Der Bogen schließt sich — vom Machen zum Orchestrieren.
+LEAD: Der Bogen schließt sich — vom Machen zum Orchestrieren. Und er schließt sich dort, wo wir begonnen haben.
 
 - **Früher** — die IT baut Software.
 - **Heute** — IT + Business bauen Software.
 - **Morgen** — Menschen orchestrieren Agenten, die Software bauen und betreiben.
 
-SPEAKER: Das ist die Verschiebung in drei Zeilen. Und daraus folgt die eigentliche Frage für jeden CIO hier im Raum.
+SPEAKER: Denken Sie an den Controlling-Mitarbeiter von vorhin. Morgen ist er nicht der, der heimlich eine App baut — sondern Teil eines Systems, das Ihre IT orchestriert und verantwortet.
 
 ---
 
-## SLIDE 22
+## SLIDE 21
 
 TYP: ActionTitle
 KICKER: Abschluss · Die Rolle von morgen
@@ -372,15 +337,16 @@ SPEAKER: Wir geben bewusst keine fertige Lösung vor. Diese Frage lässt sich ni
 
 ---
 
-## SLIDE 23
+## SLIDE 22
 
 TYP: Closing
 KICKER: Co-Intelligence
 TITEL: Die Machtverschiebung ist organisatorisch
 LEAD: Nicht die Technologie verändert Ihre Organisation — sondern Ihre Antwort darauf.
 
+**Die zentrale Frage: „Wem gehört die Software?" — die wichtigste Frage Ihrer nächsten fünf Jahre.**
+
 - Softwareentwicklung wird demokratisiert → die Ausführungshoheit verschiebt sich → die IT wird vom Builder & Gatekeeper zum Architect & Governor.
 - Co-Intelligence heißt: Menschen orchestrieren Agenten — unter klarer Governance und geteilter Verantwortung.
-- Die Frage „Wem gehört die Software?" ist die wichtigste Frage Ihrer nächsten fünf Jahre.
 
 SPEAKER: Vielen Dank. Wir freuen uns auf die Diskussion — hier im Raum und in den Pausen des Kongresses.
