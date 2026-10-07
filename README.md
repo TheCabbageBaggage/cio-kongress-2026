@@ -14,7 +14,7 @@ Referenten: **Linus Kohl** (Organisation & Governance) · **Daniel Valtiner** (t
 |-------|-------|
 | `storyline.md` | Dramaturgie des Workshops — 7 Beats, roter Faden, 50-Minuten-Zeitplan, Rollenverteilung Linus/Daniel |
 | `content.md` | Foliengenaue Inhalte (jede Folie = ein Block, inkl. Speaker-Notes) |
-| `LK-2026-045_Multiagenten-Architektur_Workshop.pdf` | Fertiger Foliensatz (22 Folien, 16:9, Linus-Kohl-CI) |
+| `LK-2026-045_Multiagenten-Architektur_Workshop.pdf` | Fertiger Foliensatz (27 Folien: 22 Hauptteil + 5 Anhang, 16:9, Linus-Kohl-CI) |
 
 **Kernaussage:** Die IT verliert die Ausführungshoheit über Softwareentwicklung und gewinnt die Gestaltungshoheit — vom **Builder & Gatekeeper** zum **Architect & Governor**.
 
@@ -34,6 +34,8 @@ Referenten: **Linus Kohl** (Organisation & Governance) · **Daniel Valtiner** (t
 
 **Didaktisches Prinzip:** **Weniger Übungen, mehr Zeit je Übung.** Beide Gruppenarbeiten erhalten je 10 Minuten (zusammen 20 der 50 Minuten). Übung 1 arbeitet einen einzigen, zugespitzten Fall in vier Kernfragen durch; Übung 2 bündelt acht Einzelthemen auf vier Entscheidungsdimensionen (~2,5 min pro Entscheidung). Tiefe statt Breite — damit die Gruppen zu belastbaren Aussagen kommen.
 
+**Anhang (Folien 23–27):** Die **ursprünglichen Übungen** — die drei Fälle aus Übung 1 (Fall A/B/C) und die acht Entscheidungsdimensionen aus Übung 2 — bleiben als Referenz erhalten, außerhalb des 50-Minuten-Bogens. Für vertiefende Runden oder im kleineren Kreis.
+
 ---
 
 ## Status & Zusammenarbeit
@@ -51,5 +53,6 @@ Dieses Repository ist **öffentlich** und als Arbeitsfläche für die Weiterentw
 
 | Version | Datum | Änderung |
 |---------|-------|----------|
+| LK-2026-045 · v4 | 2026-10-07 | Ursprüngliche Übungen als Anhang wieder aufgenommen (drei Fälle · acht Dimensionen); Sprechtext an die entschlackten Übungen angepasst. Deck auf 27 Folien (22 + 5 Anhang). |
 | LK-2026-045 · v3 | 2026-10-07 | Übungen entschlackt: Übung 1 = ein Fall mit vier Kernfragen (10 min), Übung 2 = vier gebündelte Dimensionen (10 min). Deck auf 22 Folien, Zeitplan harmonisiert. |
 | LK-2026-045 | 2026-09-30 | Initialer Stand: Storyline, Inhalte, Foliensatz (23 Folien) |

@@ -2,7 +2,7 @@
 
 **Workshop (50 min) · Kongress-Motto „Co-Intelligence" · Zielgruppe: C-Level / IT-Entscheider**
 
-> **Stand v3 (Übungen entschlackt):** **Weniger Übungen, mehr Zeit je Übung.** Aus drei Fällen in Übung 1 wurde ein zugespitzter Fall mit vier Kernfragen (10 min). Übung 2 arbeitet statt acht nur noch vier Entscheidungsdimensionen ab (10 min). Der Workshop hat jetzt 22 Folien und zwei Übungen à 10 Minuten.
+> **Stand v4 (Übungen entschlackt + Anhang):** **Weniger Übungen, mehr Zeit je Übung.** Aus drei Fällen in Übung 1 wurde ein zugespitzter Fall mit vier Kernfragen (10 min). Übung 2 arbeitet statt acht nur noch vier Entscheidungsdimensionen ab (10 min). Die **ursprünglichen Übungen** (drei Fälle · acht Dimensionen) bleiben als **Anhang** erhalten — für vertiefende Runden und kleineren Kreis. Der Workshop hat jetzt 27 Folien (22 im Hauptteil + 5 Anhang) und zwei Übungen à 10 Minuten.
 
 ---
 
@@ -77,6 +77,19 @@ Diese Frage ist bewusst unbequem: Sie räumt von der ersten Minute an mit der be
 | 45–50 min | Diskussion + Schlussfolgerung: Früher/Heute/Morgen, Rolle der IT morgen                             | Bogen schließen, These zur Diskussion stellen, zur Co-Intelligence führen     | Linus (Schluss), Daniel (ein Satz Ausblick)                       |
 
 **Warum diese Verteilung:** Die zwei Gruppenübungen bekommen zusammen 20 Minuten — das ist der Kern des Workshops. Beide Übungen sind bewusst auf **eine** Entscheidungslage (Übung 1) bzw. **vier gebündelte** Dimensionen (Übung 2) verdichtet, damit die Gruppen in der Zeit zu echten Aussagen kommen statt an der Oberfläche zu bleiben.
+
+---
+
+## Anhang — die ursprünglichen Übungen
+
+Die ausführlicheren Fassungen der beiden Übungen liegen als Referenz bei (Folien 23–27), **außerhalb des 50-Minuten-Bogens**:
+
+- **Übung 1, Fall A** — Vibe Coder im kleinen Unternehmen (7 Fragen zu Betrieb, Owner, Security, Kündigung).
+- **Übung 1, Fall B** — Digitalisierungsteam im Großunternehmen (IT vs. Digitalisierung, technische vs. fachliche Verantwortung, Release-Gates).
+- **Übung 1, Fall C** — Shadow-AI-Anwendung, geschäftskritisch und herrenlos (die Eskalationsstufe, aus der der Haupt-Fall verdichtet wurde).
+- **Übung 2** — die ursprünglichen **acht** Entscheidungsdimensionen (Agenten, Daten, Tools, Identity, Infrastruktur, Governance, Security, Human-in-the-loop).
+
+**Wofür:** Wenn eine Gruppe in der Tiefe weiterarbeiten will, wenn Zeit übrig bleibt, oder wenn der Workshop im kleineren Kreis (ohne strenge 50-Minuten-Taktung) wiederholt wird. Im Hauptablauf werden diese Folien **nicht** vorgetragen.
 
 ---
 

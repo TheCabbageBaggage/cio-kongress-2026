@@ -3,7 +3,7 @@
 Workshop (50 min) · Kongress-Motto „Co-Intelligence" · Zielgruppe C-Level / IT-Entscheider
 Struktur für den späteren Design-Build. Jede Folie = ein Block.
 
-> **Stand v3 (Übungen entschlackt):** Aus drei Fällen in Übung 1 wurde **ein zugespitzter Fall** mit vier Kernfragen (10 min). Übung 2 arbeitet statt acht nur noch **vier Entscheidungsdimensionen** ab (10 min). Insgesamt 22 Folien.
+> **Stand v4 (Übungen entschlackt + Anhang):** Aus drei Fällen in Übung 1 wurde **ein zugespitzter Fall** mit vier Kernfragen (10 min). Übung 2 arbeitet statt acht nur noch **vier Entscheidungsdimensionen** ab (10 min). Die **ursprünglichen Übungen** (drei Fälle · acht Dimensionen) bleiben als **Anhang** erhalten. Insgesamt 27 Folien.
 
 ---
 
@@ -37,6 +37,7 @@ LEAD: Der rote Faden des Workshops folgt einer einfachen Dramaturgie — zwei Gr
 | 5 | Teil 2 — Multiagenten-Architektur (Deep Dive)     | 8 min  |
 | 6 | Gruppenübung 2: „Agentic Enterprise Architecture" | 10 min |
 | 7 | Abschluss: die Rolle der IT von morgen            | 5 min  |
+| A | Anhang: die ursprünglichen Übungen                 | —      |
 
 SPEAKER: Wir bewegen uns von der Vergangenheit über die Gegenwart in die Zukunft — und arbeiten zweimal selbst: einmal an der Organisation, einmal an der Architektur. Beide Übungen bekommen bewusst Raum: ein Fall, vier Dimensionen, zehn Minuten.
 
@@ -350,3 +351,78 @@ LEAD: Nicht die Technologie verändert Ihre Organisation — sondern Ihre Antwor
 - Co-Intelligence heißt: Menschen orchestrieren Agenten — unter klarer Governance und geteilter Verantwortung.
 
 SPEAKER: Vielen Dank. Wir freuen uns auf die Diskussion — hier im Raum und in den Pausen des Kongresses.
+
+---
+
+## SLIDE 23
+
+TYP: Section
+KICKER: Anhang
+TITEL: Anhang — die ursprünglichen Übungen
+LEAD: Referenzmaterial für vertiefende Runden: die drei Fälle aus Übung 1 und die acht Entscheidungsdimensionen aus Übung 2.
+
+SPEAKER: Im Anhang finden Sie die ursprünglichen, ausführlicheren Übungen — falls Sie in kleineren Runden oder im Nachgang in die Tiefe gehen wollen.
+
+---
+
+## SLIDE 24
+
+TYP: Cards
+KICKER: Anhang · Übung 1 · Fall A
+TITEL: Vibe Coder im kleinen Unternehmen
+LEAD: Der ursprüngliche Fall aus Übung 1 — zum Nachspielen in kleineren Runden.
+
+- **Die Anwendung:** Ein Mitarbeiter im Controlling baut mit einem AI-Agenten eine kleine Anwendung. Sie greift auf Unternehmensdaten zu, hat einen Login, verarbeitet Kundendaten — und wird von **15 Mitarbeitern** genutzt.
+- **Die sieben Fragen:** 1. Darf er sie produktiv einsetzen? · 2. Wer genehmigt sie? · 3. Wer ist Owner? · 4. Wer macht Security? · 5. Wer betreibt sie? · 6. Wer wartet sie? · 7. Was passiert, wenn der Mitarbeiter kündigt?
+
+SPEAKER: (Anhang — Referenz, nicht vortragen.)
+
+---
+
+## SLIDE 25
+
+TYP: Cards
+KICKER: Anhang · Übung 1 · Fall B
+TITEL: Digitalisierungsteam im Großunternehmen
+LEAD: Wo die Grenzen zwischen IT und Fachbereich verschwimmen.
+
+- **Die Anwendung:** Ein zentrales Digitalisierungsteam entwickelt mit mehreren Agents eine Anwendung für die Produktion: MES-Daten, SAP-Daten, Rückschreiben, mehrere externe APIs — produktiv in mehreren Werken.
+- **Die Fragen:** Ist das IT oder Digitalisierung? · Wer trägt die technische, wer die fachliche Verantwortung? · Muss die klassische IT jeden Release freigeben? · Welche Security-Gates braucht es? · Wie sieht der Lifecycle aus?
+
+SPEAKER: (Anhang — Referenz, nicht vortragen.)
+
+---
+
+## SLIDE 26
+
+TYP: Cards
+KICKER: Anhang · Übung 1 · Fall C
+TITEL: Shadow-AI-Anwendung — geschäftskritisch, herrenlos
+LEAD: Der Ursprung des heutigen Übungs-Falls — die vollständige Eskalationsstufe.
+
+- **Sechs Monate später:** 14 Benutzer · 5 Schnittstellen · 3 Datenbanken · 2 externe AI-APIs · kein dokumentierter Owner · keine Tests · keine Backup-Strategie.
+- **Der Status:** Die Anwendung ist inzwischen **geschäftskritisch**. Frage: Was macht die IT jetzt?
+
+SPEAKER: (Anhang — Referenz, nicht vortragen.)
+
+---
+
+## SLIDE 27
+
+TYP: Table
+KICKER: Anhang · Übung 2
+TITEL: Die ursprünglichen acht Entscheidungsdimensionen
+LEAD: Referenz: die acht Dimensionen aus Übung 2 — für Gruppen, die in der Tiefe weiterarbeiten wollen.
+
+| # | Dimension             | Leitfrage                                              |
+|---|-----------------------|--------------------------------------------------------|
+| 1 | **Agenten**           | Welche Agenten brauchen wir?                           |
+| 2 | **Daten**             | Auf welche Daten dürfen sie zugreifen?                 |
+| 3 | **Tools**             | Welche Systeme dürfen sie bedienen?                    |
+| 4 | **Identity**          | Wie erhalten Agenten Identität & Berechtigungen?       |
+| 5 | **Infrastruktur**     | On-Prem / Cloud / Hybrid?                              |
+| 6 | **Governance**        | Wer darf neue Agenten bauen?                           |
+| 7 | **Security**          | Was muss kontrolliert werden?                          |
+| 8 | **Human-in-the-loop** | Bei welchen Entscheidungen muss ein Mensch freigeben?  |
+
+SPEAKER: (Anhang — Referenz, nicht vortragen.)
